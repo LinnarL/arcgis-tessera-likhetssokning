@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-TesseraSimilarity.pyt
+TesseraLikhetssokning.pyt
 
 Likhetssökning i ett embedding-raster: hur likt är varje pixel en referenspunkt
 eller referenspolygon, uttryckt som skalärprodukten mellan pixelns vektor och
@@ -500,8 +500,8 @@ def _default_gdb():
 
 class Toolbox:
     def __init__(self):
-        self.label = "Tessera similarity"
-        self.alias = "tesserasimilarity"
+        self.label = "Tessera: likhetssökning"
+        self.alias = "tessera_likhet"
         self.tools = [EmbeddingSimilarity]
 
 

@@ -1,4 +1,4 @@
-# Tessera similarity search
+# Tessera likhetssökning
 
 ArcGIS Pro Python toolbox that compares every pixel in an embedding raster against a reference
 point or polygon, using the dot product between the pixel's vector and the reference vector.
@@ -33,7 +33,7 @@ one, the same approach the Earth Engine tutorial uses when several reference poi
 ## Install
 
 1. Clone or download this repo.
-2. In ArcGIS Pro: Catalog, Toolboxes, Add Toolbox, select `TesseraSimilarity.pyt`.
+2. In ArcGIS Pro: Catalog, Toolboxes, Add Toolbox, select `TesseraLikhetssokning.pyt`.
 3. Open Tessera similarity, Likhetssökning i embedding-raster.
 
 ## The tool dialog
